@@ -26,8 +26,8 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio')
-  .then(() => console.log('✅ MongoDB connected'))
-  .catch(err => console.log('❌ MongoDB error:', err));
+  .then(() => console.log(' MongoDB connected'))
+  .catch(err => console.log(' MongoDB error:', err));
 
 // Routes
 app.use('/api/projects', projectRoutes);
@@ -42,5 +42,5 @@ app.get('/api/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(` Server running on port ${PORT}`);
 });
