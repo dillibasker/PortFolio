@@ -7,15 +7,31 @@ import Footer from '../components/ui/Footer';
 import axios from 'axios';
 
 const sampleProjects = [
-  { _id: '1', title: 'AI Chat Platform', description: 'Real-time conversational AI platform with custom fine-tuned models, streaming responses, and multi-turn memory.', tech: ['React', 'Node.js', 'OpenAI', 'MongoDB'], github: '#', live: '#', category: 'AI/ML', year: 2024, featured: true },
-  { _id: '2', title: '3D Portfolio Engine', description: 'Interactive 3D visualization framework built with Three.js and WebGL. Features custom shaders and physics.', tech: ['Three.js', 'WebGL', 'GLSL', 'React'], github: '#', live: '#', category: 'Web', year: 2024, featured: true },
-  { _id: '3', title: 'DevOps Dashboard', description: 'Kubernetes cluster monitoring and analytics platform with real-time metrics and alerting system.', tech: ['React', 'Prometheus', 'Docker', 'K8s'], github: '#', live: '#', category: 'DevOps', year: 2023 },
-  { _id: '4', title: 'E-Commerce API', description: 'Scalable REST API with JWT auth, Stripe payments, inventory management and analytics.', tech: ['Node.js', 'Express', 'MongoDB', 'Stripe'], github: '#', live: '#', category: 'Backend', year: 2023 },
-  { _id: '5', title: 'ML Model Trainer', description: 'Browser-based neural network training tool with real-time visualization of training progress.', tech: ['Python', 'TensorFlow', 'React', 'D3.js'], github: '#', live: '#', category: 'AI/ML', year: 2023 },
-  { _id: '6', title: 'Real-time Collab Tool', description: 'Google Docs-like collaboration with operational transforms, cursors, and conflict resolution.', tech: ['React', 'Socket.io', 'Node.js', 'Redis'], github: '#', live: '#', category: 'Web', year: 2022 },
+  {
+    _id: '1',
+    title: 'E-Commerce Future Prediction System',
+    description: 'AI-powered system that analyzes historical e-commerce data to predict future sales trends, customer demand, and product performance using machine learning models.',
+    tech: ['Python', 'TensorFlow', 'Flask', 'React', 'MongoDB'],
+    github: 'https://github.com/dillibasker/E-Commerce',
+    live: '#',
+    category: ['MERN Stack', 'ML', 'Gen AI'],
+    year: 2025,
+    featured: true
+  },
+  {
+    _id: '2',
+    title: 'Secure Real-Time Chat with End-to-End Encryption',
+    description: 'Real-time messaging application with end-to-end encryption ensuring that only the sender and receiver can read messages. Built with secure key exchange and encrypted communication.',
+    tech: ['React', 'Node.js', 'Socket.io', 'Encryption', 'MongoDB'],
+    github: 'https://github.com/dillibasker/ChatApp',
+    live: '#',
+    category: 'MERN Stack',
+    year: 2025,
+    featured: true
+  }
 ];
 
-const categories = ['All', 'Web', 'AI/ML', 'Backend', 'DevOps'];
+const categories = ['All', 'MERN Stack', 'ML', 'Gen AI', 'Blockchain'];
 const gradients = ['#6366f1', '#8b5cf6', '#06b6d4', '#f43f5e', '#10b981', '#f59e0b'];
 
 function ProjectCard({ project, index }) {
