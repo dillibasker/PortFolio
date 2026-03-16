@@ -28,7 +28,50 @@ const sampleProjects = [
     category: 'MERN Stack',
     year: 2025,
     featured: true
-  }
+  },
+    {
+    _id: '3',
+    title: 'Scheme Welfare Recommendation System',
+    description: 'Gen AI powered platform that helps citizens discover government welfare schemes based on their eligibility. Uses AI to analyze user data and recommend relevant schemes.',
+    tech: ['React', 'Node.js', 'Gen AI', 'MongoDB', 'API Integration'],
+    github: 'https://github.com/dillibasker/Scheme_welfare',
+    live: '#',
+    category: ['MERN Stack', 'Gen AI'],
+    year: 2025,
+    featured: true
+  },
+  {
+    _id: '4',
+    title: 'Online Delivery Web Application',
+    description: 'Full-stack online delivery platform that allows users to browse products, place orders, and track deliveries with a modern responsive interface.',
+    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+    github: 'https://github.com/dillibasker/Delivery_Web',
+    live: '#',
+    category: ['MERN Stack'],
+    year: 2024
+  },
+  {
+  _id: '5',
+  title: 'AI Assist for College Students',
+  description: 'AI-powered assistant designed for college students to help with academic queries, study resources, project ideas, and exam preparation using generative AI and intelligent recommendations.',
+  tech: ['React', 'Node.js', 'Gen AI', 'MongoDB', 'API Integration'],
+  github: 'https://github.com/dillibasker/AI_assist_student',
+  live: '#',
+  category: ['MERN Stack', 'Gen AI'],
+  year: 2025,
+  featured: true
+},
+{
+  _id: '6',
+  title: 'Auto Drivers Auto Payment System',
+  description: 'Digital payment platform designed for auto drivers to receive ride payments seamlessly. The system enables passengers to pay online, track ride history, and manage transactions securely.',
+  tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Payment Gateway'],
+  github: 'https://github.com/dillibasker/Auto-project',
+  live: '#',
+  category: ['MERN Stack'],
+  year: 2024,
+  featured: false
+}
 ];
 
 const categories = ['All', 'MERN Stack', 'ML', 'Gen AI', 'Blockchain'];
