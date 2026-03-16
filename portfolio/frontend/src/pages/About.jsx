@@ -102,9 +102,13 @@ export default function About() {
               <div className="relative w-72 h-72 mx-auto">
                 <div className="absolute inset-0 rounded-3xl glow-primary animate-pulse-slow"
                   style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6)' }} />
-                <div className="absolute inset-1 rounded-3xl bg-dark-200 flex items-center justify-center">
-                  <span className="font-display font-bold text-7xl gradient-text">A</span>
-                </div>
+                  <div className="absolute inset-1 rounded-3xl bg-dark-200 overflow-hidden">
+                    <img
+                      src="/images/dilli.jpg"
+                      alt="Dilli Basker"
+                      className="w-full h-full object-cover rounded-3xl"
+                    />
+                  </div>
                 {/* Floating badges */}
                 <motion.div
                   className="absolute -top-4 -right-4 glass rounded-xl px-4 py-2"
