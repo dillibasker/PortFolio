@@ -71,6 +71,58 @@ const sampleProjects = [
   category: ['MERN Stack'],
   year: 2024,
   featured: false
+},
+{
+  _id: '7',
+  title: 'AI Model Marketplace',
+  description: 'Decentralized marketplace for sharing and discovering AI models. Models are uploaded to IPFS and registered on blockchain, allowing developers to explore, download, and contribute models securely.',
+  tech: ['React', 'Node.js', 'Solidity', 'IPFS', 'Polygon'],
+  github: 'https://github.com/dillibasker/AI-Marketplace',
+  live: '#',
+  category: ['Blockchain', 'Gen AI'],
+  year: 2025,
+  featured: true
+},
+{
+  _id: '8',
+  title: 'Ajith AI Chatbot',
+  description: 'Generative AI chatbot capable of answering user queries, providing smart responses, and assisting with tasks using advanced natural language processing models.',
+  tech: ['React', 'Node.js', 'Gen AI', 'NLP', 'API Integration'],
+  github: '#',
+  live: 'https://github.com/dillibasker/Ajith-AI-ChatBot',
+  category: ['Gen AI'],
+  year: 2025,
+  featured: true
+},
+{
+  _id: '9',
+  title: 'Smart Traffic Flow Optimization',
+  description: 'AI-powered system that analyzes traffic data to optimize signal timing and reduce congestion using predictive machine learning algorithms.',
+  tech: ['Python', 'Machine Learning', 'TensorFlow', 'Data Analytics'],
+  github: 'https://github.com/dillibasker/Smart-Traffic-Flow-Optimization',
+  live: '#',
+  category: ['ML'],
+  year: 2024
+},
+{
+  _id: '10',
+  title: 'AI Model Grade Prediction',
+  description: 'Machine learning system that predicts student academic performance based on historical academic data, attendance, and study patterns.',
+  tech: ['Python', 'Scikit-learn', 'Pandas', 'Machine Learning'],
+  github: 'https://github.com/dillibasker/AI-model-Grade_predict',
+  live: '#',
+  category: ['ML'],
+  year: 2024
+},
+{
+  _id: '11',
+  title: 'Medicine Delivery Web Application',
+  description: 'Full-stack web platform for ordering medicines online with secure authentication, product management, and delivery tracking.',
+  tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+  github: 'https://github.com/dillibasker/Medicine-delivery-App',
+  live: '#',
+  category: ['MERN Stack'],
+  year: 2024
 }
 ];
 
