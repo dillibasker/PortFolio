@@ -7,10 +7,90 @@ import Footer from '../components/ui/Footer';
 import axios from 'axios';
 
 const sampleHackathons = [
-  { _id: '1', name: 'HackMIT 2024', description: 'Built an AI-powered accessibility tool that helps visually impaired users navigate websites using voice commands and ML.', position: '🥇 1st Place', date: 'Oct 2024', location: 'MIT, Cambridge MA', team: ['Alex', 'Sarah', 'Mike'], prize: '$5,000', photo: null, certificate: null },
-  { _id: '2', name: 'ETHGlobal 2024', description: 'Developed a decentralized identity verification system using ZK proofs and blockchain technology.', position: '🥈 2nd Place', date: 'Aug 2024', location: 'San Francisco, CA', team: ['Alex', 'Jordan'], prize: '$3,000', photo: null, certificate: null },
-  { _id: '3', name: 'Google DevFest Hackathon', description: 'Created a real-time collaborative code editor with AI pair programming capabilities.', position: '🏆 Best AI Project', date: 'Jun 2024', location: 'New York, NY', team: ['Alex', 'Priya', 'Kai', 'Sam'], prize: 'Cloud Credits + Swag', photo: null, certificate: null },
-  { _id: '4', name: 'MLH Global Hack Week', description: 'Built a smart home IoT dashboard with predictive energy management using sensor data.', position: '🎖️ Finalist', date: 'Mar 2024', location: 'Remote', team: ['Alex', 'Chen'], prize: 'Finalist Prize', photo: null, certificate: null },
+  {
+    _id: '1',
+    name: 'DeFy Hackathon',
+    description: 'Developed a blockchain-based application demonstrating decentralized system capabilities and smart contract integration.',
+    position: 'Participant',
+    date: '2025',
+    location: 'VIT University',
+    team: ['Team Members'],
+    photo: '/hackathons/vit-defy.jpg',
+    prize: '_',
+    certificate: '/certificates/defy-c.jpg'
+  },
+  {
+    _id: '2',
+    name: 'HackVerse',
+    description: 'Built a decentralized certificate verification system using EduChain blockchain technology to ensure tamper-proof academic credential validation.',
+    position: 'Participant',
+    date: '2025',
+    location: 'SRM University',
+    team: ['Team Members'],
+    photo: '/hackathons/hackverse.jpg',
+    prize: '_',
+    certificate: '/certificates/hackverse-c.jpg'
+  },
+  {
+    _id: '3',
+    name: 'RMK Engineering College Hackathon',
+    description: 'Developed an E-Waste Management system to track and manage electronic waste recycling and disposal efficiently.',
+    position: 'Participant',
+    date: '2025',
+    location: 'RMK Engineering College',
+    team: ['Team Members'],
+    prize: '_',
+    photo: null,
+    certificate: '/certificates/rmk-c.jpg'
+  },
+  {
+    _id: '4',
+    name: 'Codeathon 3.0',
+    description: 'Created a fast and secure medicine delivery web application to improve medical accessibility and online pharmacy services.',
+    position: 'Participant',
+    date: '2025',
+    location: 'Prathyusha Engineering College',
+    team: ['Team Members'],
+    photo: '/hackathons/codeathon.jpg',
+    prize: '_',
+    certificate: '/certificates/Prathyusha-c.jpg'
+  },
+  {
+    _id: '5',
+    name: 'Cephus Hackathon',
+    description: 'Built an AI Model Marketplace platform where developers can upload, share, and explore AI models.',
+    position: 'Participant',
+    date: '2025',
+    location: 'Aatria Institute, Bangalore',
+    team: ['Team Members'],
+    photo: '/hackathons/cephus.jpg',
+    prize: '_',
+    certificate: '/certificates/cephus-c.jpg'
+  },
+  {
+    _id: '6',
+    name: 'Vel Tech Innovation Hackathon',
+    description: 'Developed an AI-integrated E-Commerce platform that predicts product demand and enhances customer shopping experience.',
+    position: 'Participant',
+    date: '2025',
+    location: 'Vel Tech University',
+    team: ['Team Members'],
+    photo: '/hackathons/veltech.jpg',
+    prize: '_',
+    certificate: null
+  },
+  {
+    _id: '7',
+    name: 'Avalanche Team 1 Hackathon',
+    description: 'Built GitChain, a blockchain-based version control concept integrating decentralized storage and commit verification.',
+    position: 'Participant',
+    date: '2025',
+    location: 'Madras Christian College (MCC)',
+    team: ['Team Members'],
+    photo: '/hackathons/hackverse.jpg',
+    prize: '_',
+    certificate: null
+  }
 ];
 
 const badgeColors = { '🥇 1st Place': '#f59e0b', '🥈 2nd Place': '#94a3b8', '🏆 Best AI Project': '#6366f1', '🎖️ Finalist': '#10b981' };

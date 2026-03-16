@@ -36,7 +36,7 @@ const sampleProjects = [
     tech: ['React', 'Node.js', 'Gen AI', 'MongoDB', 'API Integration'],
     github: 'https://github.com/dillibasker/Scheme_welfare',
     live: '#',
-    category: ['Gen AI'],
+    category: 'Gen AI',
     year: 2025,
     featured: true
   },
@@ -47,7 +47,7 @@ const sampleProjects = [
     tech: ['MongoDB', 'Express', 'React', 'Node.js'],
     github: 'https://github.com/dillibasker/Delivery_Web',
     live: '#',
-    category: ['MERN Stack'],
+    category: 'MERN Stack',
     year: 2024
   },
   {
@@ -57,7 +57,7 @@ const sampleProjects = [
   tech: ['React', 'Node.js', 'Gen AI', 'MongoDB', 'API Integration'],
   github: 'https://github.com/dillibasker/AI_assist_student',
   live: '#',
-  category: ['MERN Stack', 'Gen AI'],
+  category: 'Gen AI',
   year: 2025,
   featured: true
   },
@@ -68,7 +68,7 @@ const sampleProjects = [
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Payment Gateway'],
     github: 'https://github.com/dillibasker/Auto-project',
     live: '#',
-    category: ['MERN Stack'],
+    category: 'MERN Stack',
     year: 2024,
     featured: false
   },
@@ -79,7 +79,7 @@ const sampleProjects = [
     tech: ['React', 'Node.js', 'Solidity', 'IPFS', 'Polygon'],
     github: 'https://github.com/dillibasker/AI-Marketplace',
     live: '#',
-    category: ['Blockchain', 'Gen AI'],
+    category: 'Blockchain',
     year: 2025,
     featured: true
   },
@@ -90,7 +90,7 @@ const sampleProjects = [
     tech: ['React', 'Node.js', 'Gen AI', 'NLP', 'API Integration'],
     github: '#',
     live: 'https://github.com/dillibasker/Ajith-AI-ChatBot',
-    category: ['Gen AI'],
+    category: 'Gen AI',
     year: 2025,
     featured: true
   },
@@ -101,7 +101,7 @@ const sampleProjects = [
     tech: ['Python', 'Machine Learning', 'TensorFlow', 'Data Analytics'],
     github: 'https://github.com/dillibasker/Smart-Traffic-Flow-Optimization',
     live: '#',
-    category: ['ML'],
+    category: 'ML',
     year: 2024
   },
   {
@@ -111,7 +111,7 @@ const sampleProjects = [
     tech: ['Python', 'Scikit-learn', 'Pandas', 'Machine Learning'],
     github: 'https://github.com/dillibasker/AI-model-Grade_predict',
     live: '#',
-    category: ['ML'],
+    category: 'ML',
     year: 2024
   },
   {
@@ -121,7 +121,7 @@ const sampleProjects = [
     tech: ['MongoDB', 'Express', 'React', 'Node.js'],
     github: 'https://github.com/dillibasker/Medicine-delivery-App',
     live: '#',
-    category: ['MERN Stack'],
+    category: 'MERN Stack',
     year: 2024
   }
 
