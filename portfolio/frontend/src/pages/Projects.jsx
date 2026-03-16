@@ -11,7 +11,7 @@ const sampleProjects = [
     _id: '1',
     title: 'E-Commerce Future Prediction System',
     description: 'AI-powered system that analyzes historical e-commerce data to predict future sales trends, customer demand, and product performance using machine learning models.',
-    tech: ['Python', 'TensorFlow', 'Flask', 'React', 'MongoDB'],
+    tech: ['Python', 'TensorFlow', 'Flask', 'React', 'MongoDB' ,'Node.js'],
     github: 'https://github.com/dillibasker/E-Commerce',
     live: '#',
     category: ['MERN Stack', 'ML', 'Gen AI'],
