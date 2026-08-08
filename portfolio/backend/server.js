@@ -12,8 +12,6 @@ import achievementRoutes from './routes/achievements.js';
 import contactRoutes from './routes/contact.js';
 import adminRoutes from './routes/admin.js';
 
-
-
 const app = express();
 const PORT = process.env.PORT || 5000;
 
